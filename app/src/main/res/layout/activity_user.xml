@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.company.alves.gastracker.UserActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Qual é o seu nome ?"
+        android:id="@+id/txtName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnYear"
+        android:layout_below="@+id/txtName"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_alignEnd="@+id/txtName"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Qual é o seu carro ?"
+        android:id="@+id/usrCar"
+        android:layout_below="@+id/btnYear"
+        android:layout_alignEnd="@+id/btnYear"
+        android:layout_marginTop="54dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCar"
+        android:inputType="text"
+        android:layout_below="@+id/usrCar"
+        android:layout_alignStart="@+id/btnYear"
+        android:layout_alignEnd="@+id/usrCar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:id="@+id/btnNext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Qual o ano do seu carro ?"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtYear"
+        android:inputType="text"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/edtCar"
+        android:layout_alignEnd="@+id/edtCar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Qual a média de consumo do carro ?"
+        android:id="@+id/txtAvg"
+        android:layout_below="@+id/edtYear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAvg"
+        android:inputType="text"
+        android:layout_below="@+id/txtAvg"
+        android:layout_alignStart="@+id/edtCar"
+        android:layout_alignEnd="@+id/edtYear" />
+
+</RelativeLayout>
