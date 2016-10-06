@@ -1,5 +1,5 @@
 # Entrega de Projeto
-Cleiton Alves e João Vitor Lessa
+**Cleiton Alves e João Vitor Lessa**
 
 Telas da aplicação: 
 
