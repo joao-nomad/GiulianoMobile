@@ -1,6 +1,6 @@
 # GasTracker App (Entrega do Projeto)
 
-**Integrantes: Cleiton Alves e João Vitor Lessa**
+**Integrantes: Cleiton Alves e João Vitor Lessa**<br>
 **Orientador: Giuliano Bertoti**
 
 Telas da aplicação: 
